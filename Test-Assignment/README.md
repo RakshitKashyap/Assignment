@@ -83,4 +83,5 @@ Endpoint: POST /api/employees/view/searchAndOrder/
 - *Implemented basic authentication for securing the API endpoints.*
 
 
-
+## NOTE
+-- ** FOR Every New Employee creation System will create a user entity and password will be concatenation of username and "_passKey"
