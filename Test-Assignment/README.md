@@ -1,8 +1,11 @@
-Employee Management API
+## Employee Management Service
+
+
 This is a RESTful API developed using Java with Spring Boot framework. The API allows performing CRUD (Create, Read, Update, Delete) 
 operations on Employee entities, as well as managing Employee Addresses. Below are the details of the implementation:
 
-Functionality
+## Functionality
+
 1. Create new Employee
 Endpoint: POST /v1/employees/add
 
@@ -51,29 +54,33 @@ Deletes an Employee Addresses from Address List.
 8.Fetch Employ by name and sort
 Endpoint: POST /api/employees/view/searchAndOrder/
 // in here i've mentioned two different method 
-> using normal jpa projection
-> using stream API 
-
-Technology Stack
-Java: Used as the primary programming language for backend development.
-Spring Boot: Framework for building Java-based applications with ease.
-MySQL: Relational database management system used for storing and managing data.
-Spring Data JPA: Part of the larger Spring Data project, used for simplifying the implementation of data access layers.
-Spring Security: Provides authentication, authorization, and protection against common security exploits.
-Swagger: Used for API documentation to ensure clarity and accessibility.
-Lombok: Library used to reduce boilerplate code in Java classes, improving code readability and conciseness.
-JUnit: Framework for writing and running automated tests in Java.
+1. using normal jpa projection
+2. using stream API 
 
 
-Additional Features
-Implemented proper validation of incoming requests.
-Utilized Spring Data JPA for database interactions.
-Implemented appropriate error handling.
-Utilized HTTPStatus codes for responses.
-Implemented Swagger for API documentation.
-Used Lombok to reduce boilerplate code.
-Written comprehensive unit tests for repositories, controllers, entities, and services.
-Tested API endpoints using Postman.
-Implemented basic authentication for securing the API endpoints.
+## Technology Stack
+
+- **Java:** Used as the primary programming language for backend development.
+- **Spring Boot:** Framework for building Java-based applications with ease.
+- **MySQL:** Relational database management system used for storing and managing data.
+- **Spring Data JPA:** Part of the larger Spring Data project, used for simplifying the implementation of data access layers.
+- **Spring Security:** Provides authentication, authorization, and protection against common security exploits.
+- **Swagger:** Used for API documentation to ensure clarity and accessibility.
+- **Lombok:** Library used to reduce boilerplate code in Java classes, improving code readability and conciseness.
+- **JUnit:** Framework for writing and running automated tests in Java.
+
+
+
+## Additional Features
+- *Implemented proper validation of incoming requests.*
+- *Utilized Spring Data JPA for database interactions.*
+- *Implemented appropriate error handling.*
+- *Utilized HTTPStatus codes for responses.*
+- *Implemented Swagger for API documentation.*
+- *Used Lombok to reduce boilerplate code.*
+- *Written comprehensive unit tests for repositories, controllers, entities, and services.*
+- *Tested API endpoints using Postman.*
+- *Implemented basic authentication for securing the API endpoints.*
+
 
 
