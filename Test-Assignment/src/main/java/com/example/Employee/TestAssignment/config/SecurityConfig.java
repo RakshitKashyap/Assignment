@@ -45,7 +45,7 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception{
         return http.csrf().disable()
                 .authorizeHttpRequests()
-                .requestMatchers("/v1/basic/ping", "/v1/basic/ping/{num}").permitAll()
+                .requestMatchers("/v1/user/test-request").permitAll()
                 .and()
                 .authorizeHttpRequests()
                 .requestMatchers("/v1/**").authenticated()
